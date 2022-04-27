@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(83, 158, 223);
+}
+
+h2 {
+    margin-top: 80px;
+    background-color: orange;
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0px 0px 20px 0px #888888;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    margin: 50px;
+}
+
+#fname, #lname {
+    margin-left: 80px;
+}
+
+#website {
+    margin-left: 95px;
+}
+
+form{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 80px;
+   list-style:none;
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+   justify-content:center;
+   width:25vw;
+ 
+ }
+ ul li{
+   padding:1em 2em .8em 2em;
+   border:1px solid black;
+ 
+ }
+
+ .container {
+     background-color: rgb(225, 226, 134);
+     padding-bottom: 30px;
+     box-shadow: 0px 0px 20px 0px #888888;
+ }
+
+ ul li:nth-child(odd) {
+    background: rgb(238, 161, 72);
+  }
+  
+  ul li:hover {
+    background:#F8F8F8;
+  }
+
+  button {
+      background-color: green;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      border-radius: 3px;
+  }
+
+#reset-btn{
+    background-color: #D22B2B;
+    margin-left: 50px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 780px) {
+    #data {margin-left: 145px;}
+  }
